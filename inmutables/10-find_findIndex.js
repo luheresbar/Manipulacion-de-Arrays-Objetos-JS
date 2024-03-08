@@ -1,3 +1,11 @@
+//* FIND
+//* Retorna el primer elemeto que coincida con la condicion.
+//* Si no encuentra ningun elemento retorna undefine.
+
+//* FINDINFEX 
+//* Retorne el indece del elemento.
+//* Si no encuentra nada retorna un -1.
+
 const numbers = [1,30,49,29,10,13];
 
 let rta = undefined;

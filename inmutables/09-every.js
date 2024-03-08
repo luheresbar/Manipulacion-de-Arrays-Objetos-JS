@@ -1,3 +1,7 @@
+//* EVERY
+//* Inmutable
+//* retorma booleano
+
 const numbers = [1,30,39,29,10,13];
 
 
@@ -28,6 +32,9 @@ const team = [
   },
   {
     name: "Santiago",
-    age: 18,
+    age: 14,
   },
 ];
+
+const rta3 = team.map(person => person.age).every(age => age < 15);
+console.log(rta3);

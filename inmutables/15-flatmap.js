@@ -1,3 +1,7 @@
+//* FLATMAP
+//* Tiene la funcionalidad de ir aplanando y transformando a la vez.
+
+
 const users = [
   { userId: 1, username: "Tom", attributes: ["Nice", "Cute"] },
   { userId: 2, username: "Mike", attributes: ["Lovely"] },
@@ -36,6 +40,7 @@ const calendars = {
   ],
 };
 
+//* Obtener un array con las fechas de inicio.
 const rta3 = Object.values(calendars).flatMap(item => {
     return item.map(date => date.startDate);
 });

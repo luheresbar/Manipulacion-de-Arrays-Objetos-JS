@@ -1,5 +1,9 @@
+//* SOME
+//* retorma booleano
+
 const numbers = [1, 2, 3, 4];
 
+//* Verificar si almenos un numero es par.
 let rta = false;
 for (let index = 0; index < numbers.length; index++) {
   const element = numbers[index];
@@ -41,6 +45,7 @@ const orders = [
   },
 ];
 
+//* Evaluar si almenos alguna orden fue entregada.
 const rta3 = orders.some((item) => item.delivered);
 console.log("rta3", rta3);
 
@@ -67,6 +72,8 @@ const newAppointment = {
   endDate: new Date(2021, 1, 1, 9, 30),
 };
 
+//* libreria externa date-fns.
+//* npm i date-fns
 const areIntervalsOverlapping = require('date-fns/areIntervalsOverlapping')
 
 const isOverlap = (newDate) => {

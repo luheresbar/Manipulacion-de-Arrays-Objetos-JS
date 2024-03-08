@@ -1,3 +1,6 @@
+//* FILTER
+//* Inmutable
+
 const words = ['spray', 'limit', 'elite', 'exuberant'];
 
 const newArray = [];
@@ -9,6 +12,7 @@ for (let index = 0; index < words.length; index++) {
 }
 console.log('newArray', newArray);
 console.log('original', words );
+
 const rta = words.filter(item => item.length >= 6)
 console.log('rta', rta);
 console.log('original', words );
@@ -41,6 +45,7 @@ const orders = [
         delivered: false,
       },
   ];
+  
 const rta3 = orders.filter(item => item.delivered && item.total >= 100)
 console.log('rta3', rta3);
 

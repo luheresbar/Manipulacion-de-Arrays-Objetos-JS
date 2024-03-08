@@ -1,3 +1,6 @@
+//* REDUCE - TOMA UN ARRAY Y LO REDUCE A UN SOLO VALOR
+//* Inmutable
+
 const totals = [1,2,3,4];
 
 let sum = 0;

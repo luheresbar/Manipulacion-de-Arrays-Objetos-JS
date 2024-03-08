@@ -1,4 +1,6 @@
 //* Abstracción con deep copy en JavaScript
+//* Incluye la copia de metodos
+
 
 function isObject(subject) {
   return typeof subject == "object";
@@ -50,8 +52,13 @@ const studentBase = {
     instagram: undefined,
     facebook: undefined,
   },
+  hello() {
+    console.log("Hello, World!");
+ }
 };
 
 const juan = deepCopy(studentBase);
 Object.seal(juan);
+console.log(juan);
+
 // juan.name = "Juanito";

@@ -1,3 +1,7 @@
+//* INCLUDES
+//* verificar si un elemento está dentro del array.
+//* Retorna un booleano.
+
 const pets = ['cat', 'dog', 'bat'];
 
 let includeInArray = false;

@@ -1,3 +1,9 @@
+//* JOIN
+//*
+
+//* SPLIT
+//* Genera un array de acuerdo con un patron indicado.
+
 const elements = ["Fire", "Air", "Water"];
 
 let rtaFinal = '';

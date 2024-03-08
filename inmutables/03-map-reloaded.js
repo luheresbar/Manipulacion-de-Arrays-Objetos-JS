@@ -1,3 +1,5 @@
+//* MAP
+
 const orders = [
   {
     customerName: "Nicolas",
@@ -30,6 +32,9 @@ console.log("rta", rta);
 // });
 // console.log("rta2", rta2);
 // console.log("original", orders);
+
+//* Para evitar se tome la referencua en memoria del objeto original.
+//* Se crea una nueva referencia en memoria
 const rta3 = orders.map((item) => {
   return {
     ...item,
